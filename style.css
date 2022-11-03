@@ -1,0 +1,49 @@
+header{
+    text-align:center;
+}
+body{
+    background: linear-gradient(aqua,currentColor);
+    
+}
+img{
+    display:block;
+    margin:auto;
+}
+nav{
+    text-align: center;
+}
+nav a:hover{
+    color: yellow;
+}
+nav a{
+    text-decoration-line: none;
+    padding-left:40px;
+ 
+}
+
+header, nav, footer, section{
+    background-color: lightblue;
+    border-style: 1;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 22px;
+    text-align: center;
+}
+footer{
+    background-image: url("https://pekemolon.com/wp-content/uploads/2021/03/icono-tracking-movimiento-pekemolon-ok.gif");
+    clear:both;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-content: center;
+}
+article{
+    background-color: antiquewhite;
+    border-style: 1;
+    margin: 10px auto;
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    border-radius:22px;
+}
