@@ -1,0 +1,65 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(41, 233, 205);
+}
+
+header{
+    text-align: center;
+    color: aliceblue;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration-line: none;
+    padding-left: 40px;
+    color: rgb(41, 233, 205);
+}
+
+nav a:hover{
+    color: white;
+}
+
+header, nav, footer, section{
+    background-image: url(https://thumbs.dreamstime.com/b/textura-de-piedras-mont%C3%B3n-obsidiana-sobre-fondo-negro-joyer%C3%ADa-la-220109381.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    border-style: 1;
+    border-radius: 22px;
+    margin: 20px auto;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+article{
+    background-color: white;
+    border-radius: 22px;
+    border-style: 1;
+    margin: 10px auto;
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+    color: black;
+}
+
+.ini{
+    width: 90%;
+}
